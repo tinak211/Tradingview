@@ -9,10 +9,15 @@
             margin: 0;
             padding: 0;
             background-color: transparent;
+            /* Set a minimum height to ensure widget is tall enough */
+            min-height: 100vh;
+            height: auto;
         }
         .tradingview-widget-container {
             width: 100%;
-            height: 100vh;
+            /* Set a fixed minimum height instead of 100vh */
+            min-height: 1200px;
+            height: auto;
         }
     </style>
 </head>
@@ -23,7 +28,7 @@
         <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-quotes.js" async>
         {
             "width": "100%",
-            "height": "100%",
+            "height": "1200",
             "symbolsGroups": [
                 {
                     "name": "My Watchlist",
@@ -50,20 +55,64 @@
                             "displayName": "Google"
                         },
                         {
-                            "name": "NYSE:SOFI",
-                            "displayName": "Sofi"
+                            "name": "NASDAQ:SOFI",
+                            "displayName": "SOFI"
                         },
                         {
-                            "name": "NYSE:AAL",
-                            "displayName": "American Airlines"
+                            "name": "NASDAQ:HOOD",
+                            "displayName": "HOOD"
                         },
                         {
-                            "name": "NYSE:HOOD",
-                            "displayName": "Robinhood"
+                            "name": "NASDAQ:ASTS",
+                            "displayName": "ASTS"
                         },
                         {
-                            "name": "NYSE:ASTS",
-                            "displayName": "AST Spacemobile"
+                            "name": "NASDAQ:AAL",
+                            "displayName": "AAL"
+                        },
+                        {
+                            "name": "NYSE:ACHR",
+                            "displayName": "ACHR"
+                        },
+                        {
+                            "name": "NYSEARCA:XLF",
+                            "displayName": "XLF"
+                        },
+                        {
+                            "name": "NASDAQ:AMD",
+                            "displayName": "AMD"
+                        },
+                        {
+                            "name": "NASDAQ:NVDA",
+                            "displayName": "NVDA"
+                        },
+                        {
+                            "name": "NASDAQ:SMH",
+                            "displayName": "SMH"
+                        },
+                        {
+                            "name": "NASDAQ:META",
+                            "displayName": "META"
+                        },
+                        {
+                            "name": "NYSE:HIMS",
+                            "displayName": "HIMS"
+                        },
+                        {
+                            "name": "NYSE:PLTR",
+                            "displayName": "PLTR"
+                        },
+                        {
+                            "name": "NASDAQ:COIN",
+                            "displayName": "COIN"
+                        },
+                        {
+                            "name": "NYSE:CMG",
+                            "displayName": "CMG"
+                        },
+                        {
+                            "name": "NYSEARCA:IWM",
+                            "displayName": "IWM"
                         }
                     ]
                 }
@@ -83,7 +132,7 @@
         <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-quotes.js" async>
         {
             "width": "100%",
-            "height": "100%",
+            "height": "1200",
             "symbolsGroups": [
                 {
                     "name": "My Watchlist",
@@ -110,20 +159,64 @@
                             "displayName": "Google"
                         },
                         {
-                            "name": "NYSE:SOFI",
-                            "displayName": "Sofi"
+                            "name": "NASDAQ:SOFI",
+                            "displayName": "SOFI"
                         },
                         {
-                            "name": "NYSE:AAL",
-                            "displayName": "American Airlines"
+                            "name": "NASDAQ:HOOD",
+                            "displayName": "HOOD"
                         },
                         {
-                            "name": "NYSE:HOOD",
-                            "displayName": "Robinhood"
+                            "name": "NASDAQ:ASTS",
+                            "displayName": "ASTS"
                         },
                         {
-                            "name": "NYSE:ASTS",
-                            "displayName": "AST Spacemobile"
+                            "name": "NASDAQ:AAL",
+                            "displayName": "AAL"
+                        },
+                        {
+                            "name": "NYSE:ACHR",
+                            "displayName": "ACHR"
+                        },
+                        {
+                            "name": "NYSEARCA:XLF",
+                            "displayName": "XLF"
+                        },
+                        {
+                            "name": "NASDAQ:AMD",
+                            "displayName": "AMD"
+                        },
+                        {
+                            "name": "NASDAQ:NVDA",
+                            "displayName": "NVDA"
+                        },
+                        {
+                            "name": "NASDAQ:SMH",
+                            "displayName": "SMH"
+                        },
+                        {
+                            "name": "NASDAQ:META",
+                            "displayName": "META"
+                        },
+                        {
+                            "name": "NYSE:HIMS",
+                            "displayName": "HIMS"
+                        },
+                        {
+                            "name": "NYSE:PLTR",
+                            "displayName": "PLTR"
+                        },
+                        {
+                            "name": "NASDAQ:COIN",
+                            "displayName": "COIN"
+                        },
+                        {
+                            "name": "NYSE:CMG",
+                            "displayName": "CMG"
+                        },
+                        {
+                            "name": "NYSEARCA:IWM",
+                            "displayName": "IWM"
                         }
                     ]
                 }
